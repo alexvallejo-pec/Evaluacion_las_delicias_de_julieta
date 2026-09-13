@@ -1,0 +1,171 @@
+body {
+    background-color: #6a49ed;
+    font-family: Arial;
+    color: #0a0202;
+    margin: 0;
+}
+
+header {
+    background-color: #e9e2df;
+    color: rgb(17, 2, 2);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    color: #6b2f1a;
+    font-size: 32px;
+    text-align: center;
+}
+
+h3 {
+    color: #6b2f1a;
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+nav {
+    text-align: center;
+    margin: 20px;
+}
+
+nav a {
+    color: rgb(14, 1, 1);
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #f2c14e;
+}
+
+section {
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #d8c3a5;
+    border-radius: 10px;
+}
+
+.inicio {
+    text-align: center;
+}
+
+.inicio img {
+    width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.boton {
+    background-color: #6b2f1a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.boton:hover {
+    background-color: #8f4528;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+}
+
+.producto {
+    width: 28%;
+    text-align: center;
+    border: 2px solid #d8c3a5;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.producto img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.nosotros {
+    text-align: center;
+}
+
+.nosotros img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #f5f1ef;
+    color: rgb(8, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+    margin: 10px;
+}
+
+
+form {
+    width: 80%;
+    margin: 20px auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background-color: #6b2f1a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #8f4528;
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #999999;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #999999;
+    text-align: center;
+}
